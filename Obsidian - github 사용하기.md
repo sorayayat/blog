@@ -6,6 +6,7 @@
 
 오른쪽 모서리 상단을 클릭하여 settings로 들어갑니다.
 
+<img src="img/20240404111925.png">
 ![[Pasted image 20240404111925.png|400]]
 
 
