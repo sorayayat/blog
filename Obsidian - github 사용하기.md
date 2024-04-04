@@ -4,24 +4,18 @@
 자신의 git hub에 repository를 생성해 주세요 (저는 퍼블릭으로 생성 했습니다.)
 
 
-오른쪽 모서리 상단을 클릭하여 settings로 들어갑니다.
-
-
-<img src="/img/1.png">
-
+1. 오른쪽 모서리 상단을 클릭하여 settings로 들어갑니다.
 ![[1.png|400]]
 
-
-왼쪽 하단으로 스크롤하면 가장 아래에 개발자 세팅으로 들어간다.
+2. 왼쪽 하단으로 스크롤하면 가장 아래에 개발자 세팅으로 들어간다.
 ![[2.png|400]]
 
-personal access tokens를 클릭한다.
-
+3. personal access tokens를 클릭한다.
 ![[Pasted image 20240404112244.png|400]]
 
 그리고 가장 아래 tokens (classic) 클릭
 
-generate new token을 누르고 클래식으로 새 토큰을 생성해줍니다.
+4. generate new token을 누르고 클래식으로 새 토큰을 생성해줍니다.
 
 
 note에 이름을 넣어주세요.
