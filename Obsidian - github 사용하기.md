@@ -6,12 +6,14 @@
 
 오른쪽 모서리 상단을 클릭하여 settings로 들어갑니다.
 
-<img src="img/20240404111925.png">
-![[Pasted image 20240404111925.png|400]]
+
+<img src="/img/1.png">
+
+![[1.png|400]]
 
 
 왼쪽 하단으로 스크롤하면 가장 아래에 개발자 세팅으로 들어간다.
-![[Pasted image 20240404112106.png|400]]
+![[2.png|400]]
 
 personal access tokens를 클릭한다.
 
