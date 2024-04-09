@@ -4,9 +4,9 @@
 
 ##### 습관적 공부를 위해 👆
 
-📍 NetWork
-📍 Operation System
-📍 Database
-📍 Algorithm
-📍 Web
-📍 OOP
+📍 NetWork 
+📍 Operation System 
+📍 Database 
+📍 Algorithm 
+📍 Web 
+📍 OOP 
