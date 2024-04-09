@@ -7,10 +7,10 @@
 
 
 1. 오른쪽 모서리 상단을 클릭하여 settings로 들어갑니다.
-![alt text](img/1.png)
+![alt text](1.png)
 
 2. 왼쪽 하단으로 스크롤하면 가장 아래에 개발자 세팅으로 들어간다.
-![alt text](img/2.png)
+![alt text](2.png)
 
 3. personal access tokens를 클릭한다.
 ![alt text](img/3.png)
@@ -28,7 +28,7 @@ Expiration를 클릭하여 만료 기간을 설정해주세요.
 
 그리고 아래에 리포에만 체크 박스 클릭!
 생성해주시면 됩니다.
-![alt text](img/5.png)
+![alt text](5.png)
 
 
 그러면 토큰의 주소가 나올텐데 안전한 곳에 잘 저장해주세요~!
@@ -39,13 +39,13 @@ Expiration를 클릭하여 만료 기간을 설정해주세요.
 
 
 생성 해줍니다.
-![alt text](img/6.png)
+![alt text](6.png)
 
 
 생성 후 폴더를 하나 만들어 줍시다.
 
 저는 remote-blog라고 했습니다.
-![alt text](img/7.png)
+![alt text](7.png)
 
 
 옵시디언 좌측 아래에 설정창 클릭
@@ -53,17 +53,17 @@ Expiration를 클릭하여 만료 기간을 설정해주세요.
 다음과 같은 창이 나오면 탐색 -> git 검색합니다.
 
 
-![alt text](img/8.png)
+![alt text](8.png)
 
 
 
 첫번째 플러그인을 설치합니다
-![alt text](img/10.png)
+![alt text](10.png)
 
 
 설치 후엔 꼭! 활성화를 해주세요
 
-![alt text](img/11.png)
+![alt text](11.png)
 
 
 
@@ -72,7 +72,7 @@ Expiration를 클릭하여 만료 기간을 설정해주세요.
 이제 다시 홈 화면으로 와 좌측에 터미널을 클릭 해주세요.
 
 clone을 입력하고 remote repo 선택
-![alt text](img/12.png)
+![alt text](12.png)
 
 
 다음과 같이 URL입력을 요구합니다.
@@ -80,7 +80,7 @@ clone을 입력하고 remote repo 선택
 
 
 자신의 리포지토리에 있는 url 복사!
-![alt text](img/14.png)
+![alt text](14.png)
 
 **== !!!!! 다음과 같은 형식으로 옵시디언에 넣어야 합니다!!!!!!==**
 
@@ -89,7 +89,7 @@ clone을 입력하고 remote repo 선택
 
 만들어둔 폴더에 깃주소를 연동하면!!!!!
 
-![alt text](img/15.png)
+![alt text](15.png)
 
 
 커밋 푸쉬를 테스트 해보세요~~
