@@ -20,6 +20,8 @@ cpu 집중 프로세스를 먼저 할당한다면 다른 프로세스는 계속 
 > 자료구조에서는 FIFO(선입 선출)구조지만 스케쥴링에서는 항상 그럴 필요 없다.
 
 
+<img scr="img/pcb.png">
+
 ![alt text](img/pcb.png)
 
 
@@ -30,7 +32,6 @@ cpu 집중 프로세스를 먼저 할당한다면 다른 프로세스는 계속 
 
 ---
 <br>
-
 ## CPU Scheduling Algorithm
 
 비선점형
