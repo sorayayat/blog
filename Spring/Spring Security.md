@@ -89,29 +89,29 @@ requestMatchers라는 메소드를 사용하여 해당 경로에 대한 여러�
 ```
 .formLogin((formLogin)-> formLogin
 				.loginPage("/login")
-				.usernameParameter("username")
-				.passwordParameter("password")
 				.loginProcessingUrl("/login/login-proc")
 				.defaultSuccessUrl("/home")
 				.failureUrl("/login"))
+				
 		.logout((logout) -> logout
 				.logoutSuccessUrl("/")
 				.invalidateHttpSession(true)
                 )
 ```
 
+스프링 시큐리티가 제공하는 로그인 폼이 자동으로 사용되지만 원하는 형식이 있다면
+위와 같이 설정한다.
+
+그리고 html에서 action 태그로 loginProcessingUrl("/login/login-proc")와 같은 주소를 넣어주면 시큐리티가 알아서 프론트에서 받아와 로그인을 처리해준다!!!
+
+그리고 로그인에 성공하면 이동할 페이지도 설정해준다.
+로그인 실패시에 이동할 페이지도 설정 할 수 있다.
+
+리다이렉트 척척해준다.....👍
 
 
 
 
 
-
-
-
-
-
-
-
-
->참고자료 - https://spring.io/projects/spring-security
+>참고자료 - https://spring.io/projects/spring-security  
 >youtube - https://youtu.be/y0PXQgrkb90?si=m9tQz_PYppu6F2dy
