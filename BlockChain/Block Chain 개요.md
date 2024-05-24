@@ -1,17 +1,17 @@
-# BlookChain
+# Block Chain
 
 > 작성자 : [배소라](https://github.com/sorayayat)
 
 <details>
 <summary>목차</summary>
 
-- [블록체인이란](#블록체인blookchain이란)
+- [블록체인이란](#블록체인blockchain이란)
 - [블록체인의 작동원리](#블록체인-작동원리)
 - [블록체인 기술](#블록체인-기술은-어떻게-발전했나요)
 
 </details>
 
-## 블록체인(BlookChain)이란?
+## 블록체인(Block Chain)이란?
 
 블록체인이란 정보를 기록하고 저장하는 탈중앙화 시스템이다.  
 일련의 순서로 연결된 데이터 단위(블록)로 구성된 일종의 분산 장부 기술이다.  
