@@ -18,8 +18,6 @@ NAS 서버에 Proxmox라는 소프트웨어 서버를 사용했다.
 ---
 
 
-
-
 ![[blog/img/Pasted image 20240524135604.png]]
 - 새로운 Item을 선택
 
@@ -52,6 +50,7 @@ NAS 서버에 Proxmox라는 소프트웨어 서버를 사용했다.
 - password에 발급받은 토큰을 입력한다.
 
 그리고 아까의 파이프라인 설정에서 키를 확인해보면 등록된 키를 볼 수 있다.
+ssh로 jar 파일을 전송하여 실행할 예정이라 서버에서 ssh키 발급과 등록도 함께했다.
 
 선택해주고 저장하면 초기 설정이 완료 된다.
 
@@ -59,5 +58,113 @@ NAS 서버에 Proxmox라는 소프트웨어 서버를 사용했다.
 plugin을 설치해줘야한다. (이 과정을 빼먹고 꽤 삽질을 했다.)
 
 ![[blog/img/Pasted image 20240524142548.png]]
-- jenkins관리 > Plugin > pipeline 검색 (이미 설치되어 있어서 표시됨)
+- jenkins관리 > Plugin > pipeline 검색 후 설치
 - ssh 관련 plugin도 설치
+
+Jenkinsfile을 작성하면 된다.
+
+```
+pipeline{
+	agent any
+	stages('Checkout') {
+		steps {
+			git credentialsId: 'github_Token', url: ['깃헙주소']
+		}
+		// 다음과 같이 메세지도 출력해 볼 수 있다.
+		post {
+	                success {
+	                    sh 'echo "Success clone Repo"'
+	                }
+	                failure {
+	                    sh 'echo "Fail clone Repo"'
+	                }
+	            }
+	}
+	
+	 stage('Build') {
+	            steps {
+	                // Gradle을 사용하여 프로젝트 빌드
+	                sh 'chmod +x ./gradlew'  //권한 문제로 추가해주었다.
+	                sh './gradlew build'
+	                sh './gradlew clean build'
+	            }
+	            post {
+	                success {
+	                    sh 'echo "Success build"'
+	                    // 빌드된 파일 목록 확인
+	                    sh 'ls -l build/libs/'
+	                }
+	                failure {
+	                    sh 'echo "Fail build"'
+	                }
+	            }
+	        }
+
+	// 수정중....
+	stage('Deploy') {
+		steps {
+			// 빌드된 JAR 파일을 원격 서버로 전송
+			sshagent(credentials: [SSH_CREDENTIALS_ID]) {
+				sh """
+				ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "pwd"
+				scp -o StrictHostKeyChecking=no build/libs/${JAR_NAME} ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_DIR}
+				"""
+			// 원격 서버에서 기존 프로세스를 종료하고 새 JAR 파일로 애플리케이션을 시작
+				sh """
+				ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "pkill -f 'java -jar ${REMOTE_DIR}/${JAR_NAME}' || true"
+				ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} "nohup $JAVA_HOME/bin/java -jar ${REMOTE_DIR}/${JAR_NAME} > /dev/null 2>&1 &"
+				"""
+			}
+		}
+            post {
+                success {
+                    sh 'echo "Success deploy"'
+                }
+                failure {
+                    sh 'echo "Fail deploy"'
+                }
+            }
+        }
+
+	//연결 상태 확인
+	stage('Health Check') {
+		steps {
+			script {
+				def response = httpRequest url: 'http://192.168.0.14:8200/health', validResponseCodes: '200'
+				if (response.status != 200) {
+					error "Health check failed with status: ${response.status}"
+				} else {
+					sh 'echo "Health check passed"'
+				}
+			}
+		}
+	post {
+		always {
+			// 빌드 결과를 정리
+			cleanWs()
+		}
+    }
+}
+```
+
+여기까지 작성했다면 빌드해보면 된다
+
+![[blog/img/Pasted image 20240526090520.png]]
+
+물론... 나는 에러가 났다.
+
+콘솔 메세지를 확인해 보면 파이프라인의 단계별로 잘 실행이 되는 것을 볼 수 있다.
+![[blog/img/Pasted image 20240526090902.png]]
+post했던 메세지도 잘 나온다
+
+![[blog/img/Pasted image 20240526091129.png]]
+
+아직 해결중이다....
+
+우선 파일이 제대로 전송 되었는지 서버에서 확인해 보자
+
+![[blog/img/Pasted image 20240526091439.png]]
+
+젠킨스 서버에서 원격 서버 진입 후 파일이 잘 들어온 것을 확인 할 수 있다.
+
+배포 문제 해결 부분은 추후 계속 다루겠다.
