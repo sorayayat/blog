@@ -7,7 +7,7 @@ CI/CD에 대한 개요는 생략하겠다.
 CI/CD 파이프라인은 다음과 같은 단계로 진행된다.
 
 
-![Alt text](blog/img/Pasted%20image%2020240524134431.png)
+![Alt text](/img/Pasted%20image%2020240524134431.png)
 
 
 --- 
@@ -16,22 +16,22 @@ CI/CD 파이프라인은 다음과 같은 단계로 진행된다.
 NAS 서버에 Proxmox라는 소프트웨어 서버를 사용했다.
 각각 Jenkins와 배포할 Backend server를 구축해두었다.
 
-![](blog/img/Pasted%20image%2020240524104437.png)
+![](/img/Pasted%20image%2020240524104437.png)
 
 ---
 
 
-![Alt text](blog/img/Pasted%20image%2020240524135604.png)
+![Alt text](/img/Pasted%20image%2020240524135604.png)
 
 - 새로운 Item을 선택
 
-![[blog/img/Pasted image 20240524135700.png]]
+![](/img/Pasted%20image%2020240524135700.png)
 - 상단에 이름과 pipeline 선택 후 ok 해준다
 
-![[blog/img/Pasted image 20240524135929.png]]
+![](/img/Pasted%20image%2020240524135929.png)
 - 배포할 코드가 있는 깃헙 주소 입력
 
-![[blog/img/Pasted image 20240524140011.png]]
+![](/img/Pasted%20image%2020240524140011.png)
 - 그리고 아래에 내용을 선택해준다.
 
 
@@ -62,7 +62,7 @@ ssh로 jar 파일을 전송하여 실행할 예정이라 서버에서 ssh키 발
 그리고 중요한....!!!
 plugin을 설치해줘야한다. (이 과정을 빼먹고 꽤 삽질을 했다.)
 
-![[blog/img/Pasted image 20240524142548.png]]
+![](/img/Pasted%20image%2020240524142548.png)
 - jenkins관리 > Plugin > pipeline 검색 후 설치
 - ssh 관련 plugin도 설치
 
@@ -154,21 +154,20 @@ pipeline{
 
 여기까지 작성했다면 빌드해보면 된다
 
-![[blog/img/Pasted image 20240526090520.png]]
+![](/img/Pasted%20image%2020240526090520.png)
 
 물론... 나는 에러가 났다.
 
 콘솔 메세지를 확인해 보면 파이프라인의 단계별로 잘 실행이 되는 것을 볼 수 있다.
-![[blog/img/Pasted image 20240526090902.png]]
+![](/img/Pasted%20image%2020240526090902.png)
 post했던 메세지도 잘 나온다
 
-![[blog/img/Pasted image 20240526091129.png]]
+![](/img/Pasted%20image%2020240526091129.png)
 
 아직 해결중이다....
 
 우선 파일이 제대로 전송 되었는지 서버에서 확인해 보자
-
-![[blog/img/Pasted image 20240526091439.png]]
+![](/img/Pasted%20image%2020240526091439.png)
 
 젠킨스 서버에서 원격 서버 진입 후 파일이 잘 들어온 것을 확인 할 수 있다.
 

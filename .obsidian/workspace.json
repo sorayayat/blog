@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CS/CPU Scheduling outline.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CS/CPU Scheduling outline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CS/CPU Scheduling outline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "CS/CPU Scheduling outline.md"
               }
             }
           }
@@ -148,8 +148,20 @@
   },
   "active": "b32f3cc928919e4c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Web/http.md",
+    "Spring/spring boot 구현.md",
+    "Spring/Spring Security.md",
+    "Operation System/OS 개요.md",
+    "OOP/AOP.md",
+    "Network/TCP & UDP.md",
+    "Network/OSI 7 계층.md",
+    "Jenkins/Jenkins로 CI﹒CD.md",
+    "etc/Obsidian - github 사용하기.md",
+    "CS/CPU Scheduling outline.md",
+    "BlockChain/Block Chain 개요.md",
+    "Algorithm/Hash (코테).md",
     "README.md",
+    "conflict-files-obsidian-git.md",
     "무제 파일.canvas",
     "Networt.md",
     "NetWork.md",
