@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4725e2762ea485e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4725e2762ea485e0",
+  "active": "b32f3cc928919e4c",
   "lastOpenFiles": [
-    "README.md",
     "conflict-files-obsidian-git.md",
+    "README.md",
     "무제 파일.canvas",
     "Networt.md",
     "NetWork.md",
