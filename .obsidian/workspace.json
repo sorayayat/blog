@@ -13,11 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-
                 "file": "Jenkins/Jenkins로 CI﹒CD -2.md",
-
-                "file": "Jenkins/Jenkins로 CI﹒CD.md",
-
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +86,6 @@
               "type": "backlink",
               "state": {
                 "file": "Jenkins/Jenkins로 CI﹒CD -2.md",
-                "file": "Jenkins/Jenkins로 CI﹒CD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +103,6 @@
               "type": "outgoing-link",
               "state": {
                 "file": "Jenkins/Jenkins로 CI﹒CD -2.md",
-                "file": "Jenkins/Jenkins로 CI﹒CD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,8 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jenkins/Jenkins로 CI﹒CD -2.md",
-                "file": "Jenkins/Jenkins로 CI﹒CD.md"
+                "file": "Jenkins/Jenkins로 CI﹒CD -2.md"
               }
             }
           }
@@ -168,9 +161,6 @@
     "img/Pasted image 20240526091439.png",
     "img/Pasted image 20240529192155.png",
     "img/Pasted image 20240412112902.png",
-    "CS/CPU Scheduling outline.md",
-    "CS/CPU Scheduling outline.md",
-    "Web/http.md",
     "Spring/spring boot 구현.md",
     "Spring/Spring Security.md",
     "Spring/Spring Security-2.md",
