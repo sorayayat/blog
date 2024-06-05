@@ -58,8 +58,7 @@ boolean isAvailable = memberService.isUsernameAvailable(username);
 </div>
 ```
 
-중복 검증 부분은 jquery를 사용하였는데 이 부분을 많이 접하지 못하여 더 공부해야할것 같다.
-
+ajax 사용
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
@@ -98,5 +97,3 @@ success: function (data){...} 요청이 성공했을때 실행할 함수 부분�
 
 유효성 부분은 나중에 보강하도록하고 빈칸으로 제출 할 수 없도록 간단한 함수만 추가해주었다.
 
-
-![](Pasted%20image%2020240529192155.png)
