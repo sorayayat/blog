@@ -1,4 +1,4 @@
-
+ 
 각자의 pc에 os에 맞는 git, obsidian 설치를 해주세요.
 
 자신의 git hub에 repository를 생성해 주세요 (저는 퍼블릭으로 생성 했습니다.)
