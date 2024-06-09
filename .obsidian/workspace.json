@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DataBase/정규화(Normalization).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DataBase/정규화(Normalization).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "DataBase/정규화(Normalization).md"
               }
             }
           },
@@ -155,10 +157,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "06b2d35300fdfa25",
+  "active": "e7578ef03ca5f1f1",
   "lastOpenFiles": [
-    "DataBase/정규화(Normalization).md",
     "conflict-files-obsidian-git.md",
+    "DataBase/정규화(Normalization).md",
     "Spring/Test 관련 기본 Annotation.md",
     "DataBase",
     "Spring/spring boot 구현.md",
