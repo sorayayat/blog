@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Test 관련 기본 Annotation.md",
+                "file": "DataBase/정규화(Normalization).md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 237.5
   },
   "right": {
     "id": "7dd016ab6d7adab9",
@@ -85,13 +85,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Test 관련 기본 Annotation.md",
+                "file": "DataBase/정규화(Normalization).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Test 관련 기본 Annotation.md",
+                "file": "DataBase/정규화(Normalization).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Test 관련 기본 Annotation.md"
+                "file": "DataBase/정규화(Normalization).md"
               }
             }
+          },
+          {
+            "id": "9e6dd869909080cd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -143,13 +152,17 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "e7578ef03ca5f1f1",
   "lastOpenFiles": [
-    "Spring/spring boot 구현.md",
     "Spring/Test 관련 기본 Annotation.md",
+    "DataBase/정규화(Normalization).md",
+    "DataBase",
+    "Spring/spring boot 구현.md",
     "img/Pasted image 20240526091439.png",
     "img/Pasted image 20240529192155.png.md",
     "img/Pasted image 20240526091129.png",
@@ -167,7 +180,6 @@
     "Jenkins/Jenkins로 CI﹒CD -2.md",
     "Jenkins/Jenkins로 CI﹒CD.md",
     "Spring/Spring Security-2.md",
-    "무제 폴더",
     "Network/OSI 7 계층.md",
     "CS/CPU Scheduling outline.md",
     "Web/http.md",
