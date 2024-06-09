@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataBase/정규화(Normalization).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataBase/정규화(Normalization).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataBase/정규화(Normalization).md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -157,10 +155,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "e7578ef03ca5f1f1",
+  "active": "06b2d35300fdfa25",
   "lastOpenFiles": [
-    "Spring/Test 관련 기본 Annotation.md",
     "DataBase/정규화(Normalization).md",
+    "conflict-files-obsidian-git.md",
+    "Spring/Test 관련 기본 Annotation.md",
     "DataBase",
     "Spring/spring boot 구현.md",
     "img/Pasted image 20240526091439.png",
@@ -188,7 +187,6 @@
     "BlockChain/Block Chain 개요.md",
     "Algorithm/Hash (코테).md",
     "README.md",
-    "conflict-files-obsidian-git.md",
     "무제 파일.canvas",
     "Networt.md",
     "NetWork.md",
