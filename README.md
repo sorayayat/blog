@@ -1,8 +1,8 @@
-# 🤓 공부가 취미가 될때까지
+# 🐢 느리지만 꾸준하게
 
 학습 내용을 기록하고 저장합니다!
 
-##### 습관적 공부를 위해 👆
+#####  내용👇
 
 📍 [NetWork](https://github.com/sorayayat/blog/tree/main/Network)  
 📍 [Operation System](https://github.com/sorayayat/blog/tree/main/Operation%20System)   
