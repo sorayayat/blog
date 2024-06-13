@@ -119,12 +119,14 @@ Table Space > Data file > Segment > Extent > Block
 
 char(20) vs varchar(20)
 
-| aaa |
+| 컬럼  |
 | --- |
 | aaa |
 | aaa |
 | aaa |
 | aaa |
+| aaa |
+
 100byte /  15byte
 
 varchar가 훨~씬 유리함.
@@ -132,12 +134,14 @@ varchar가 훨~씬 유리함.
 
 ##### 변경 발생
 
-| 아무튼 긴 문자 |
+| 컬럼       |
 | -------- |
 | 아무튼 긴 문자 |
 | 아무튼 긴 문자 |
 | 아무튼 긴 문자 |
 | 아무튼 긴 문자 |
+| 아무튼 긴 문자 |
+
 20byte를 초과하는 데이터 입력 발생했다고 가정합시다.
 
 
