@@ -2,16 +2,16 @@
 ## Data type
 
 ##### 숫자형
-![](Pasted%20image%2020240613122849.png)
+![](/img/Pasted%20image%2020240613122849.png)
 
 ##### DATE
-![](Pasted%20image%2020240613122910.png)
+![](/img/Pasted%20image%2020240613122910.png)
 
 ##### 문자
-![](Pasted%20image%2020240613122928.png)
+![](/img/Pasted%20image%2020240613122928.png)
 
 ##### ETC
-![](Pasted%20image%2020240613122936.png)
+![](/img/Pasted%20image%2020240613122936.png)
 
 
 ---
@@ -83,7 +83,7 @@ CHAR와 VARCHAR의 가장 큰 차이점은 고정 길이인지 가변 길이인�
 ### 구조를 살펴보고 다시 생각해보자
 
 
-![](Pasted%20image%2020240613125540.png)
+![](/img/Pasted%20image%2020240613125540.png)
 
 
 
@@ -95,7 +95,7 @@ Table Space > Data file > Segment > Extent > Block
 
 
 
-![](Pasted%20image%2020240613124853.png)
+![](/img/Pasted%20image%2020240613124853.png)
 
 
 -  블록
