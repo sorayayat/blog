@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C﹟/C﹟.md",
+                "file": "Spring/post man 사용하여 api 구현.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C﹟/C﹟.md",
+                "file": "Spring/post man 사용하여 api 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C﹟/C﹟.md",
+                "file": "Spring/post man 사용하여 api 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C﹟/C﹟.md"
+                "file": "Spring/post man 사용하여 api 구현.md"
               }
             }
           },
@@ -159,9 +159,16 @@
   },
   "active": "e7578ef03ca5f1f1",
   "lastOpenFiles": [
+    "img/Pasted image 20240630165821.png",
+    "img/Pasted image 20240630165755.png",
+    "img/Pasted image 20240630165338.png",
+    "Spring/Spring Security.md",
+    "Spring/post man 사용하여 api 구현.md",
+    "OOP/AOP.md",
+    "CS/CPU Scheduling outline.md",
+    "C﹟/C﹟.md",
     "img/Pasted image 20240626120009.png",
     "DataBase/Data type 데이터 타입.md",
-    "C﹟/C﹟.md",
     "C﹟",
     "Spring/Test 관련 기본 Annotation.md",
     "img/Pasted image 20240613140414.png",
@@ -175,20 +182,14 @@
     "conflict-files-obsidian-git.md",
     "DataBase",
     "Spring/spring boot 구현.md",
-    "img/Pasted image 20240526091439.png",
     "img/Pasted image 20240529192155.png.md",
-    "img/Pasted image 20240526091129.png",
-    "img/Pasted image 20240529193100.png",
-    "Spring/Spring Security.md",
     "Operation System/OS 개요.md",
     "etc/Obsidian - github 사용하기.md",
     "Jenkins/Jenkins로 CI﹒CD -2.md",
     "Jenkins/Jenkins로 CI﹒CD.md",
     "Spring/Spring Security-2.md",
     "Network/OSI 7 계층.md",
-    "CS/CPU Scheduling outline.md",
     "Web/http.md",
-    "OOP/AOP.md",
     "Network/TCP & UDP.md",
     "BlockChain/Block Chain 개요.md",
     "Algorithm/Hash (코테).md",
