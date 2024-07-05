@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/post man 사용하여 api 구현.md",
+                "file": "React-Native/개요 및 개발 환경 셋팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/post man 사용하여 api 구현.md",
+                "file": "React-Native/개요 및 개발 환경 셋팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/post man 사용하여 api 구현.md",
+                "file": "React-Native/개요 및 개발 환경 셋팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/post man 사용하여 api 구현.md"
+                "file": "React-Native/개요 및 개발 환경 셋팅.md"
               }
             }
           },
@@ -159,11 +159,19 @@
   },
   "active": "e7578ef03ca5f1f1",
   "lastOpenFiles": [
+    "img/Pasted image 20240705214614.png",
+    "img/Pasted image 20240705214038.png",
+    "img/Pasted image 20240705213559.png",
+    "img/Pasted image 20240705212933.png",
+    "img/Pasted image 20240705212322.png",
+    "img/Pasted image 20240705211108.png",
+    "Spring/post man 사용하여 api 구현.md",
+    "React-Native/개요 및 개발 환경 셋팅.md",
+    "React-Native",
     "img/Pasted image 20240630165821.png",
     "img/Pasted image 20240630165755.png",
     "img/Pasted image 20240630165338.png",
     "Spring/Spring Security.md",
-    "Spring/post man 사용하여 api 구현.md",
     "OOP/AOP.md",
     "CS/CPU Scheduling outline.md",
     "C﹟/C﹟.md",
@@ -172,12 +180,6 @@
     "C﹟",
     "Spring/Test 관련 기본 Annotation.md",
     "img/Pasted image 20240613140414.png",
-    "img/Pasted image 20240613125540.png",
-    "img/Pasted image 20240613124853.png",
-    "img/Pasted image 20240613122936.png",
-    "img/Pasted image 20240613122928.png",
-    "img/Pasted image 20240613122910.png",
-    "img/Pasted image 20240613122849.png",
     "DataBase/정규화(Normalization).md",
     "conflict-files-obsidian-git.md",
     "DataBase",
@@ -196,7 +198,6 @@
     "README.md",
     "무제 파일.canvas",
     "Networt.md",
-    "NetWork.md",
-    "무제 파일.md"
+    "NetWork.md"
   ]
 }
