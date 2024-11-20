@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f0731fcd5f64ff1c",
+        "id": "40c08983786bac46",
         "type": "tabs",
         "children": [
           {
-            "id": "155f6b7b446e0b98",
+            "id": "d2f925844e444a35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DesignPattern/디자인 패턴 시리즈 3편 - 데코레이터 패턴.md",
+                "file": "Network/HTTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tls",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.50390243530273
+    "width": 223.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "7dd016ab6d7adab9",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DesignPattern/디자인 패턴 시리즈 3편 - 데코레이터 패턴.md",
+                "file": "Network/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DesignPattern/디자인 패턴 시리즈 3편 - 데코레이터 패턴.md",
+                "file": "Network/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DesignPattern/디자인 패턴 시리즈 3편 - 데코레이터 패턴.md"
+                "file": "Network/HTTP.md"
               }
             }
           },
@@ -157,29 +158,41 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "155f6b7b446e0b98",
+  "active": "06b2d35300fdfa25",
   "lastOpenFiles": [
-    "img/5lFYGKd.png",
-    "img/img1.daumcdn.png",
-    "img/decorator-badcase.png",
+    "Network/OSI 7 계층.md",
+    "Network/HTTP.md",
+    "TLS^test-id.md",
+    "TLS.md",
+    "example^unique-block-id.md",
+    "TLS ^tls.md",
+    "노트 이름.md",
+    "TLS^21.md",
+    "().md",
+    "OSI7 계층.md",
+    "Network/TCP & UDP.md",
     "DesignPattern/디자인 패턴 시리즈 2편 - 옵저버 패턴.md",
-    "DesignPattern/디자인 패턴 시리즈 3편 - 데코레이터 패턴.md",
-    "img/image (1).png",
-    "img/image.png",
     "DesignPattern/디자인 패턴 시리즈 1편 - 전략 패턴.md",
+    "img/observer.png",
+    "Network/img/14.png",
+    "Network/img/10.png",
+    "Network/img/8.png",
+    "Network/img/6.png",
+    "Network/img/5.png",
+    "Network/img/4.png",
+    "Network/img/2.png",
+    "Network/img/1.png",
+    "Network/img/img3.png",
+    "SSL 이란?.md",
+    "Web/http.md",
+    "DesignPattern/디자인 패턴 시리즈 3편 - 데코레이터 패턴.md",
     "C﹟/C﹟- csv 파일 변환.md",
     "DesignPattern",
     "C﹟/C﹟.md",
     "React/react webpack 구성.md",
     "React/props, 비구조화 할당.md",
-    "img/Pasted image 20240722215506.png",
-    "img/Pasted image 20240722215322.png",
     "React/Native/개요 및 개발 환경 셋팅.md",
     "React/Native",
-    "img/Pasted image 20240705214614.png",
-    "img/Pasted image 20240705214038.png",
-    "img/Pasted image 20240705213559.png",
-    "img/Pasted image 20240705212933.png",
     "Spring/post man 사용하여 api 구현.md",
     "React",
     "Spring/Spring Security.md",
@@ -187,19 +200,7 @@
     "CS/CPU Scheduling outline.md",
     "DataBase/Data type 데이터 타입.md",
     "C﹟",
-    "Spring/Test 관련 기본 Annotation.md",
-    "DataBase/정규화(Normalization).md",
-    "conflict-files-obsidian-git.md",
     "DataBase",
-    "Spring/spring boot 구현.md",
-    "img/Pasted image 20240529192155.png.md",
-    "Operation System/OS 개요.md",
-    "etc/Obsidian - github 사용하기.md",
-    "Jenkins/Jenkins로 CI﹒CD -2.md",
-    "Jenkins/Jenkins로 CI﹒CD.md",
-    "Spring/Spring Security-2.md",
-    "Network/OSI 7 계층.md",
-    "Web/http.md",
     "무제 파일.canvas"
   ]
 }

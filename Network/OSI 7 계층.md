@@ -20,7 +20,7 @@ OSI는 OSI 참조 모델, OSI 7계층 모델이라 흔히 말하는데 이 모�
 이 모델을 참조해서 만들기 위함이다.
 
 
-![alt text](img/image.png)
+![alt text](image.png)
 
 
 ### 사용이유
